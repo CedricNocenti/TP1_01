@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.noss.tp1.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#6495ED"
+        android:paddingEnd="30dp"
+        android:paddingStart="20dp">
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp">
+
+
+        <TextView
+            android:id="@+id/txt_prenom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="Prénom : "
+            android:textAppearance="@android:style/TextAppearance.Large" />
+
+
+        <EditText
+            android:id="@+id/pln_prenom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/txt_nom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="Nom : "
+            android:textAppearance="@android:style/TextAppearance.Large" />
+
+        <EditText
+            android:id="@+id/pln_nom"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/txt_mail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="E-mail :"
+            android:textAppearance="@android:style/TextAppearance.Large" />
+
+        <EditText
+            android:id="@+id/pln_mail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/txt_tel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:text="Téléphone :"
+            android:textAppearance="@android:style/TextAppearance.Large" />
+
+        <EditText
+            android:id="@+id/pln_tel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_gravity="right">
+
+
+        <Button
+            android:id="@+id/btn_inscrire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_dark"
+
+            android:text="S'inscrire"
+            tools:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

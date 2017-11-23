@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="255dp"
+            app:srcCompat="@drawable/london" />
+
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/txt_pays"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Angleterre"
+                    android:textColor="@android:color/background_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+
+                <TextView
+                    android:id="@+id/txt_capitale_titre"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="Capitale :"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/txt_capitale"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:text="Londres"
+                    android:textColor="@android:color/background_dark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/txt_langue_titre"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:text="Langue :"
+                    android:textColor="@android:color/background_dark" />
+
+                <TextView
+                    android:id="@+id/txt_langue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:text="Anglais"
+                    android:textColor="@android:color/background_dark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:id="@+id/txt_description"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="20dp"
+                    android:paddingTop="20dp"
+                    android:text="L'Angleterre (en anglais England) est une nation constitutive du Royaume-Uni. Elle est bordée par l'Ecosse au nord et le pays de Galles à l'ouest."
+                    android:textColor="@android:color/holo_green_dark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp"
+                android:layout_gravity="right">
+
+
+                <Button
+                    android:id="@+id/btn_annuler"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_orange_dark"
+                    android:text="Annuler"
+                    android:textColor="@android:color/background_light" />
+
+                <Button
+                    android:id="@+id/btn_choisir"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="?android:attr/colorEdgeEffect"
+                    android:text="Choisir"
+                    android:textColor="@android:color/background_light" />
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
